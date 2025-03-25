@@ -36,7 +36,9 @@ You can run the training script using:
 python train_qvt.py --config configs/qml4enzyme_config.yaml
 
 ```
+## Data
 
+The enzyme subset of our dataset comprises representatives from all seven top-level EC classes—(1) Oxidoreductases, (2) Transferases, (3) Hydrolases, (4) Lyases, (5) Isomerases, (6) Ligases, and (7) Translocases—enabling multi-class prediction across the complete EC classification hierarchy. Using QM/MM-derived descriptors, such as Nuclear Repulsion Energy, SCF Total Energy, and Maximum and RMS Gradients, the model captures crucial electronic and structural characteristics influencing enzyme reactivity.
 
 
 ## Supported Architectures
